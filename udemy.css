@@ -154,7 +154,6 @@ section {
 
 
 .suggestions {
-  /* margin: 0px ; */
   display: flex;
 
   flex-wrap: wrap;
@@ -175,9 +174,9 @@ section {
   text-decoration: none;
 }
 .suggestions h3 {
-    max-width: 14.5rem;
-    margin-top: .3rem;
-    margin-bottom: 1.rem;
+    
+    padding: 0;
+    margin: .3rem 0rem .1rem 0rem;
     color: black;
     /* font-style: normal; */
     text-decoration: none;
@@ -187,9 +186,12 @@ section {
     word-wrap: break-word;
     overflow: hidden;
     max-height: 2.1em;
-    line-height: 1em;
+    line-height: 1.1em;
   }
- 
+  .suggestions h4{
+    max-width: 14.5rem;
+    
+}
 
 .suggestions h5{
     color:black;
